@@ -6,7 +6,7 @@ namespace Vidly.Models
     public class Customer
     {
         public int Id { get; set; }
-        
+        //customer definition
         //data annotatiion
         [Required]
         [StringLength(255)]
